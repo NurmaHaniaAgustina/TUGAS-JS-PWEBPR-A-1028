@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./src/style.css" rel="stylesheet">
+  <title>Tugas-JS-PWEBPR-A-1028</title>
+</head>
+<body class="poppins">
+  <div class="flex items-center justify-center w-full h-screen">
+    <div class="flex flex-col items-center justify-center">
+      <h1 class="font-black text-3xl mb-24" id="judul">Yakin kan Profesi Anda !</h1>
+      <div class="bg-[#DBDBDB] flex flex-col rounded-[30px] px-24 pt-32 pb-8 items-center justify-center relative" id="card">
+        <img src="src/assets/detektif.png" id="profesi-image" class="absolute top-8 transform -translate-x-0 -translate-y-1/2">
+        <div class="bg-[#FEEEE2] z-0 py-2 px-24 rounded-2xl">
+          <h1 class="font-bold text-base" id="pertanyaan">Apakah anda seorang Detective ?</h1>
+        </div>
+        <div class="flex flex-row mt-7 gap-4" id="buttons">
+          <button id="ya" class="bg-green-500 hover:bg-green-600 hover:text-white border font-bold border-[#DBDBDB] px-16 py-2 rounded-xl flex items-center justify-center">Iya!!</button>
+          <button id="tidak" class="bg-red-600 border font-bold border-[#DBDBDB] text-white px-16 py-2 rounded-xl flex items-center justify-center hover:bg-red-700">Tidak!!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="src/script.js"></script>
+</body>
+</html>
